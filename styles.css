@@ -1,0 +1,118 @@
+@import url(https://fonts.googleapis.com/css?family=Open+Sans);
+@import url(https://fonts.googleapis.com/css?family=Bree+Serif);
+body {
+  text-align: center;
+  font-family: "Open Sans", sans-serif, serif;
+  background-image: url(./_.jpeg);
+  background-repeat: no-repeat;
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  /* width: 100%; */
+  color: black!important;
+}
+
+.container {
+  position: relative;
+  margin-top: auto;
+  margin-bottom: auto;
+  flex-direction: column;
+  height: 100%;
+  min-width: 240px;
+  max-width: 400px;
+  max-height: 100%;
+}
+
+.row {
+  padding: 10px 0px 10px 0px;
+}
+
+#minutes {
+  font-size: 2em;
+  margin: 0px 14px 0px 14px;
+  display: inline-block;
+  vertical-align: middle;
+  color:  #f4c2c2;
+}
+
+.btn {
+  margin: 10px 10px 10px 10px;
+  border-width: 0px;
+  background-color:  #f4c2c2;
+  width:80px;
+  height:40px;
+  color: white;
+}
+
+#work-button {
+  background-color:  #f4c2c2;
+  width:130px;
+
+}
+
+#break-button {
+  background-color: #6ed3cf;
+  width:130px;
+}
+
+h1 {
+  font-family: "Bree Serif", "Open Sans", Serif;
+  margin-top: 20px;
+}
+
+.falling-sand {
+  position: relative;
+  border-left-width: 0px;
+  border-left-color: #f4c2c2;
+  border-left-style: dashed;
+  height: 120px;
+}
+
+.hourglass-top {
+  margin: auto;
+  width: 0;
+  height: 0;
+  border-left: 120px solid transparent;
+  border-right: 120px solid transparent;
+  border-top: 120px solid white;
+}
+
+.hourglass-bottom {
+  margin: auto;
+  width: 0;
+  height: 0;
+  border-left: 120px solid transparent;
+  border-right: 120px solid transparent;
+  border-bottom: 120px solid white;
+}
+
+.hourglass-bottom-sand {
+  margin: auto;
+  position: relative;
+  width: 0;
+  height: 0;
+  top: 40px;
+  left: -80px;
+  border-left: 0px solid transparent;
+  border-right: 0px solid transparent;
+  border-bottom: 0px solid  #f4c2c2;
+}
+
+.hourglass-top-sand {
+  margin: auto;
+  position: relative;
+  width: 0;
+  height: 0;
+  top: -80px;
+  left: -80px;
+  border-left: 80px solid transparent;
+  border-right: 80px solid transparent;
+  border-top: 80px solid #f4c2c2;
+}
+/*
+color scheme:
+#6ed3cf
+#9068be
+#e1e8f0
+#e62739
+*/
